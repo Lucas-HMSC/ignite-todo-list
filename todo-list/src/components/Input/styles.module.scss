@@ -1,0 +1,15 @@
+.input {
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+  color: var(--gray-100);
+  width: 100%;
+  transition: border-color 0.2s;
+
+  &:hover,
+  &:focus-within {
+    outline: transparent;
+    border-color: var(--purple-dark);
+  }
+}
