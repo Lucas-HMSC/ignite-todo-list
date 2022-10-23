@@ -1,0 +1,25 @@
+.checkbox {
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 999px;
+  border: 2px solid var(--blue);
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+.checked {
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 999px;
+  border: 2px solid var(--purple-dark);
+  background-color: var(--purple-dark);
+  color: var(--gray-100);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+}

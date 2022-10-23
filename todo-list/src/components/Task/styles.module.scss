@@ -1,0 +1,20 @@
+.task {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem;
+  background-color: var(--gray-400);
+  border-radius: 0.5rem;
+
+  span {
+    flex: 1;
+    color: var(--gray-100);
+  }
+
+  *.icon {
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+    color: var(--gray-300);
+    cursor: pointer;
+  }
+}
